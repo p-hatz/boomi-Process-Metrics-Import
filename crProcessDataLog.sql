@@ -1,3 +1,5 @@
+--MariaDB/MySQL
+  
 CREATE TABLE `processDataLog` (
   `executionId` varchar(64) DEFAULT NULL,
   `processId` varchar(64) DEFAULT NULL,
