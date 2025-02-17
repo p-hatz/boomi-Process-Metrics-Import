@@ -2,7 +2,7 @@
 ### DB
 1. Run the SQL in [crProcessDataLog.sql](https://github.com/p-hatz/boomiProcessMetricsImport/blob/main/crProcessDataLog.sql)
 ### AtomSphere
-2. Install the Bundle located at [[https://platform.boomi.com/BoomiLabs.html#pub_bundles;/tab=my_bundles/bundle=1cbe864a-5781-4c3c-afba-8b5e5a549811/bundleOwner=true](https://platform.boomi.com/BoomiLabs.html#pub_bundles;/tab=my_bundles/bundle=1cbe864a-5781-4c3c-afba-8b5e5a549811/bundleOwner=true)](https://platform.boomi.com/BoomiLabs.html#pub_bundles;/tab=my_bundles/bundle=040f8191-430f-4d9d-91d4-c2cce7e5c450/bundleOwner=true)
+2. Install the Bundle located at [https://platform.boomi.com/BoomiLabs.html#pub_bundles;/tab=my_bundles/bundle=040f8191-430f-4d9d-91d4-c2cce7e5c450/bundleOwner=true](url)
 3. Open the Process `(proc) Download Execution Artifacts` from the AtomSphere Folder you installed the Bundle in and update the following (or reuse any existing connection(s))<br>
     i. Update the `Globs` Shape
    * `dppAtomId` to your AtomSphere Runtime where you want to ingest Process Logs from
